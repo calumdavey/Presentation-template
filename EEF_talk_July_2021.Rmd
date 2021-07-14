@@ -1,0 +1,31 @@
+---
+title: "Title"
+subtitle: ""
+author: "Calum Davey (LSHTM)"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+ beamer_presentation: 
+#  latex_engine: xelatex 
+  theme: Pittsburgh
+  colortheme: dove 
+  fig_caption: yes
+#  toc: true
+  slide_level: 2
+  includes:
+    in_header: pres_template_pdf.tex
+    before_body: before_body.tex
+bibliography: '/Users/LAPT0017/Dropbox/Calum/1.Work/LSHTM/POInT/References/Library.bib'
+#csl: ../../../../Formats/vancouver-superscript.csl
+biblio-style: "ieeetr"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Outline {-}
+
+\tableofcontents
+
+# References {.allowframebreaks}
+\footnotesize
